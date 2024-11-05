@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1 id="title">Catalogo Auto</h1>
-        <div id="buttonContainer">
-            <button id="mostraAuto" onclick="mostraAuto()">Mostra Auto</button>
-            <button id="prezzoMedio" onclick="prezzoMedio()">Prezzo Medio</button>
-            <button id="marcheAuto" onclick="marcheAuto()">Marche delle Auto</button>
-            <button id="auto2020" onclick="auto2020()">Auto del 2020</button>
-            <button id="dettagliFiat" onclick="dettagliFiat()">Dettagli propetario Fiat</button>
-            <button id="trasmissioneAutomatica" onclick="trasmissioneAutomatica()">Auto con trasmissione automatica</button>
-        </div>
-        <div id="mostraDati"></div>
+    <h1 id="title" class="text-3xl font-bold text-center my-6">Catalogo Auto</h1>
+    <div id="buttonContainer" class="flex flex-wrap gap-4 justify-center my-4 p-4 rounded-md shadow-md">
+        <button id="mostraAuto" onclick="mostraAuto()" class="btn btn-info">
+            Mostra Auto
+        </button>
+        <button id="prezzoMedio" onclick="prezzoMedio()" class="btn btn-info">
+            Prezzo Medio
+        </button>
+        <button id="marcheAuto" onclick="marcheAuto()" class="btn btn-info">
+            Marche delle Auto
+        </button>
+        <button id="auto2020" onclick="auto2020()" class="btn btn-info">
+            Auto del 2020
+        </button>
+        <button id="dettagliFiat" onclick="dettagliFiat()" class="btn btn-info">
+            Dettagli proprietario Fiat
+        </button>
+        <button id="trasmissioneAutomatica" onclick="trasmissioneAutomatica()" class="btn btn-info">
+            Auto con trasmissione automatica
+        </button>
+    </div>
+    <div id="mostraDati"></div>
     <script src="script.js"></script>
 </body>
 </html>
