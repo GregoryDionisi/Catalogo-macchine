@@ -1,0 +1,217 @@
+{
+	"auto_catalogo": {
+		"auto": [
+			{
+				"marca": "Fiat",
+				"modello": "Panda",
+				"anno": "2020",
+				"colore": "Bianco",
+				"prezzo": "15000",
+				"specifiche": {
+					"motore": {
+						"tipo": "1.2",
+						"potenza": {
+							"cavalli": "69",
+							"coppia": "102 Nm"
+						}
+					},
+					"trasmissione": "Manuale",
+					"consumi": {
+						"città": "5.5",
+						"autostrada": "4.5"
+					}
+				},
+				"proprietario": {
+					"nome": "Mario Rossi",
+					"email": "mario.rossi@example.com",
+					"indirizzo": {
+						"città": "Roma",
+						"via": "Via della Libertà, 12",
+						"CAP": "00100"
+					}
+				}
+			},
+			{
+				"marca": "Ford",
+				"modello": "Fiesta",
+				"anno": "2019",
+				"colore": "Rosso",
+				"prezzo": "16000",
+				"specifiche": {
+					"motore": {
+						"tipo": "1.0 EcoBoost",
+						"potenza": {
+							"cavalli": "100",
+							"coppia": "170 Nm"
+						}
+					},
+					"trasmissione": "Automatico",
+					"consumi": {
+						"città": "6.0",
+						"autostrada": "4.8"
+					}
+				},
+				"proprietario": {
+					"nome": "Anna Bianchi",
+					"email": "anna.bianchi@example.com",
+					"indirizzo": {
+						"città": "Milano",
+						"via": "Corso Vittorio Emanuele, 45",
+						"CAP": "20121"
+					}
+				}
+			},
+			{
+				"marca": "Volkswagen",
+				"modello": "Golf",
+				"anno": "2021",
+				"colore": "Nero",
+				"prezzo": "22000",
+				"specifiche": {
+					"motore": {
+						"tipo": "1.5 TSI",
+						"potenza": {
+							"cavalli": "130",
+							"coppia": "200 Nm"
+						}
+					},
+					"trasmissione": "Manuale",
+					"consumi": {
+						"città": "5.4",
+						"autostrada": "4.3"
+					}
+				},
+				"proprietario": {
+					"nome": "Giovanni Verdi",
+					"email": "giovanni.verdi@example.com",
+					"indirizzo": {
+						"città": "Napoli",
+						"via": "Via Toledo, 22",
+						"CAP": "80134"
+					}
+				}
+			},
+			{
+				"marca": "Renault",
+				"modello": "Clio",
+				"anno": "2018",
+				"colore": "Grigio",
+				"prezzo": "14000",
+				"specifiche": {
+					"motore": {
+						"tipo": "1.5 dCi",
+						"potenza": {
+							"cavalli": "90",
+							"coppia": "220 Nm"
+						}
+					},
+					"trasmissione": "Manuale",
+					"consumi": {
+						"città": "4.2",
+						"autostrada": "3.8"
+					}
+				},
+				"proprietario": {
+					"nome": "Laura Neri",
+					"email": "laura.neri@example.com",
+					"indirizzo": {
+						"città": "Torino",
+						"via": "Via Roma, 5",
+						"CAP": "10100"
+					}
+				}
+			},
+			{
+				"marca": "Toyota",
+				"modello": "Yaris",
+				"anno": "2020",
+				"colore": "Blu",
+				"prezzo": "18000",
+				"specifiche": {
+					"motore": {
+						"tipo": "1.5 Hybrid",
+						"potenza": {
+							"cavalli": "116",
+							"coppia": "120 Nm"
+						}
+					},
+					"trasmissione": "Automatico",
+					"consumi": {
+						"città": "3.7",
+						"autostrada": "4.1"
+					}
+				},
+				"proprietario": {
+					"nome": "Francesco Gallo",
+					"email": "francesco.gallo@example.com",
+					"indirizzo": {
+						"città": "Bologna",
+						"via": "Via Indipendenza, 3",
+						"CAP": "40121"
+					}
+				}
+			},
+			{
+				"marca": "Audi",
+				"modello": "A3",
+				"anno": "2022",
+				"colore": "Argento",
+				"prezzo": "30000",
+				"specifiche": {
+					"motore": {
+						"tipo": "2.0 TDI",
+						"potenza": {
+							"cavalli": "150",
+							"coppia": "320 Nm"
+						}
+					},
+					"trasmissione": "Automatico",
+					"consumi": {
+						"città": "5.0",
+						"autostrada": "4.0"
+					}
+				},
+				"proprietario": {
+					"nome": "Marco Fabbri",
+					"email": "marco.fabbri@example.com",
+					"indirizzo": {
+						"città": "Firenze",
+						"via": "Via della Repubblica, 8",
+						"CAP": "50100"
+					}
+				}
+			},
+			{
+				"marca": "BMW",
+				"modello": "Serie 3",
+				"anno": "2021",
+				"colore": "Verde",
+				"prezzo": "35000",
+				"specifiche": {
+					"motore": {
+						"tipo": "2.0 Turbo",
+						"potenza": {
+							"cavalli": "190",
+							"coppia": "400 Nm"
+						}
+					},
+					"trasmissione": "Automatico",
+					"consumi": {
+						"città": "6.5",
+						"autostrada": "5.0"
+					}
+				},
+				"proprietario": {
+					"nome": "Simone Conti",
+					"email": "simone.conti@example.com",
+					"indirizzo": {
+						"città": "Genova",
+						"via": "Corso Italia, 10",
+						"CAP": "16100"
+					}
+				}
+			}
+		]
+	}
+}
+
